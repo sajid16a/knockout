@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Knockout World</title>
+	<script type="text/javascript" src="knockout.js"></script>
+
+
+</head>
+<body>
+
+<p>First Name:<input data-bind="value:firstName"></input></p>
+<p>Last Name:<input data-bind="value:lastName"></input></p>
+
+<p>FirstName:<strong data-bind="text:firstName"></strong></p>
+<p>LastName:<strong data-bind="text:lastName"></strong></p>
+<p>FullName:<stron data-bind="text:fullName"></strong></p>
+
+<button data-bind="click:capitalizeLastName" type="button" name="Go" value="Go">Go</button>
+
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
